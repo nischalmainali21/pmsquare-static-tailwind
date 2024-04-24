@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .li-item {
+    @apply px-[10px] py-[17px] flex items-center;
+  }
+}
