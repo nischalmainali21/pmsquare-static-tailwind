@@ -3,6 +3,9 @@ file2
 more content
 
 first half 
-
+the first half content
 
 second half
+the second half content
+continure
+continure
