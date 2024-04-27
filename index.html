@@ -11,23 +11,33 @@
     </style> -->
   </head>
   <body class="h-screen">
+    <!-- header -->
     <header
-      class="flex items-center w-full h-[120px] gap-[261px] bg-foundationwhite shadow-headershadow"
+      class="flex items-center w-full h-[120px] gap-28 2xl:gap-[261px] bg-foundationwhite shadow-headershadow"
     >
-      <div class="py-8 pl-[120px]">
-        <img src="./images/pmlogo.png" alt="logo" class="w-[177px] h-14" />
+      <!-- logo -->
+      <div class="py-6 2xl:py-8 pl-14 2xl:pl-[120px]">
+        <img
+          src="./images/pmlogo.png"
+          alt="logo"
+          class="w-40 2xl:w-[177px] h-14"
+        />
       </div>
-      <div class="flex gap-[60px] items-center">
-        <nav class="py-[33px]">
-          <ul class="flex gap-[41px] text-primary">
-            <li class="li-item">
+      <!-- link and search button -->
+      <div class="flex gap-11 2xl:gap-[60px] items-center">
+        <!-- links -->
+        <nav class="py-6 2xl:py-[33px]">
+          <ul class="flex gap-6 2xl:gap-[41px] text-primary items-center">
+            <li class="px-2 py-3 2xl:px-[10px] 2xl:py-[17px] flex items-center">
               <a
                 class="font-poppins text-[20px] font-normal leading-[30px]"
                 href="#"
                 >Home</a
               >
             </li>
-            <li class="px-[10px] py-[17px] flex items-center gap-2">
+            <li
+              class="px-2 py-3 2xl:px-[10px] 2xl:py-[17px] flex items-center gap-2"
+            >
               <a
                 href="#"
                 class="font-poppins text-[20px] font-normal leading-[30px]"
@@ -39,7 +49,7 @@
               /></span>
             </li>
             <li
-              class="px-[10px] py-[17px] flex items-center justify-center gap-2"
+              class="px-2 py-3 2xl:px-[10px] 2xl:py-[17px] flex items-center justify-center gap-2"
             >
               <a
                 href="#"
@@ -52,7 +62,7 @@
               /></span>
             </li>
             <li
-              class="px-[10px] py-[17px] flex items-center justify-center gap-2"
+              class="px-2 py-3 2xl:px-[10px] 2xl:py-[17px] flex items-center justify-center gap-2"
             >
               <a
                 href="#"
@@ -65,7 +75,7 @@
               /></span>
             </li>
             <li
-              class="px-[10px] py-[17px] flex items-center justify-center gap-2"
+              class="px-2 py-3 2xl:px-[10px] 2xl:py-[17px] flex items-center justify-center gap-2"
             >
               <a
                 href="#"
@@ -78,7 +88,7 @@
               /></span>
             </li>
             <li
-              class="px-[10px] py-[17px] flex items-center justify-center gap-2"
+              class="px-2 py-3 2xl:px-[10px] 2xl:py-[17px] flex items-center justify-center gap-2"
             >
               <a
                 href="#"
@@ -88,27 +98,33 @@
             </li>
           </ul>
         </nav>
-        <div class="py-8">
+        <!-- search button -->
+        <div class="py-6 2xl:py-8">
           <button
-            class="w-[152px] h-[56px] px-[40px] bg-secondary py-[12px] flex items-center justify-center rounded font-poppins font-semibold text-[20px] text-foundationgray leading-[32px]"
+            class="w-36 2xl:w-[152px] h-[56px] px-9 2xl:px-[40px] bg-secondary py-2 2xl:py-3 flex items-center justify-center rounded font-poppins font-semibold text-[20px] text-foundationgray leading-[32px]"
           >
             Search
           </button>
         </div>
       </div>
     </header>
-    <main class="px-[120px] flex flex-col gap-[60px] pt-12">
-      <section class="flex gap-[115px] items-center">
+    <!-- main content -->
+    <main class="px-14 2xl:px-[120px] flex flex-col gap-[60px] pt-12">
+      <!-- hero section -->
+      <section class="flex gap-24 2xl:gap-[115px] items-center">
+        <!-- hero content -->
         <div class="flex flex-col gap-12 w-[51.5%]">
           <div class="flex flex-col gap-8">
-            <div class="text-primary font-merri text-[44px] font-bold">
+            <div
+              class="text-primary font-merri text-4xl 2xl:text-[44px] font-bold"
+            >
               <span class="text-secondary">Unlocking</span> Strategic Digital
               Innovation: Elevate Your
               <span class="text-secondary">Business</span> with
               <span class="text-secondary">PMsquare</span>
             </div>
             <div
-              class="font-normal font-poppins text-[24px] leading-[40px] text-foundationblack w-[85%]"
+              class="font-normal font-poppins text-xl 2xl:text-[24px] leading-[40px] text-foundationblack w-[85%]"
             >
               PMsquare simplifies the complex challenge of architecting a data
               and analytics strategy that actually works. As an end-to-end
@@ -116,9 +132,11 @@
               strategy, implementation, and ongoing support.
             </div>
           </div>
-          <div class="flex gap-[40px]">
+          <!-- hero buttons -->
+          <div class="flex gap-9 2xl:gap-[40px]">
+            <!-- primary button -->
             <div
-              class="flex items-center px-[24px] py-[16px] gap-[12px] bg-secondary justify-center rounded"
+              class="flex items-center px-[24px] py-3 2xl:py-[16px] gap-[12px] bg-secondary justify-center rounded"
             >
               <p
                 class="text-white font-medium font-poppins text-[20px] leading-[30px]"
@@ -132,6 +150,7 @@
                   class="w-6 h-6"
               /></span>
             </div>
+            <!-- secondary button -->
             <div
               class="flex items-center justify-center px-[24px] py-[16px] rounded border-2 border-secondary"
             >
@@ -143,59 +162,66 @@
             </div>
           </div>
         </div>
+        <!-- hero images -->
         <div class="relative pt-[50px]">
+          <!-- background  -->
           <img
             src="./images/ellipse1.png"
             alt="ellipse1"
-            class="-z-10 absolute -top-[80px] -left-[170px]"
+            class="-z-10 absolute -top-[70px] -left-[120px] w-[540px] h-[550px]"
           />
           <img
             src="./images/ellipse1.png"
             alt="ellipse2"
-            class="-z-20 absolute top-[160px] left-[150px]"
+            class="-z-20 absolute top-[160px] left-[110px] w-[540px] h-[550px]"
           />
+          <!-- images -->
           <div class="z-10 grid grid-cols-2 grid-rows-2">
             <img
               src="./images/1.png"
               alt="hero-image-first"
-              class="w-[280px] h-[280px]"
+              class="w-[270px] h-[270px] 2xl:w-[280px] 2xl:h-[280px]"
             />
             <img
               src="./images/2.png"
               alt="hero-image-second"
-              class="w-[280px] h-[280px]"
+              class="w-[270px] h-[270px] 2xl:w-[280px] 2xl:h-[280px]"
             />
             <img
               src="./images/3.png"
               alt="hero-image-third"
-              class="w-[280px] h-[280px]"
+              class="w-[270px] h-[270px] 2xl:w-[280px] 2xl:h-[280px]"
             />
             <img
               src="./images/4.png"
               alt="hero-image-fourth"
-              class="w-[280px] h-[280px]"
+              class="w-[270px] h-[270px] 2xl:w-[280px] 2xl:h-[280px]"
             />
           </div>
         </div>
       </section>
       <!-- services section -->
       <section class="flex flex-col gap-[40px]">
+        <!-- services header -->
         <div class="flex flex-col gap-2 w-[49%]">
-          <div class="text-primary font-merri text-[48px] leading-[77px]">
+          <div
+            class="text-primary font-merri text-[32px] leading-[40px] 2xl:text-[48px] 2xl:leading-[77px]"
+          >
             <span class="text-secondary">Services</span> We Offer
           </div>
           <div
-            class="font-poppins font-normal text-[20px] leading-[34px] text-foundationblack"
+            class="font-poppins font-normal text-lg 2xl:text-[20px] leading-[34px] text-foundationblack"
           >
             Delivering value to multiple industries, we innovate
             industry-specific technologies to scale and optimize operations and
             bottom line.
           </div>
         </div>
-        <div class="grid grid-cols-4 grid-rows-1 gap-8">
+        <!-- services card -->
+        <div class="grid grid-cols-4 grid-rows-1 gap-6 2xl:gap-8">
           <!-- advisory services -->
           <div
-            class="shadow-serviceshadow2 rounded-[20px] w-[400px] relative px-8 py-6 h-[465px]"
+            class="shadow-serviceshadow2 rounded-[20px] min-w-fit 2xl:w-[400px] relative px-8 py-6 h-[465px]"
           >
             <div class="flex flex-col gap-4">
               <div class="flex flex-col gap-2">
@@ -233,7 +259,7 @@
           </div>
           <!-- staff augmentation -->
           <div
-            class="shadow-serviceshadow2 rounded-[20px] w-[400px] relative px-8 py-6 h-[465px]"
+            class="shadow-serviceshadow2 rounded-[20px] min-w-fit 2xl:w-[400px] relative px-8 py-6 h-[465px]"
           >
             <div class="flex flex-col gap-4">
               <div class="flex flex-col gap-2">
@@ -272,7 +298,7 @@
 
           <!-- Training -->
           <div
-            class="shadow-serviceshadow2 rounded-[20px] w-[400px] relative px-8 py-6 h-[465px]"
+            class="shadow-serviceshadow2 rounded-[20px] min-w-fit 2xl:w-[400px] relative px-8 py-6 h-[465px]"
           >
             <div class="flex flex-col gap-4">
               <div class="flex flex-col gap-2">
@@ -311,7 +337,7 @@
 
           <!--  Managed Services-->
           <div
-            class="shadow-serviceshadow2 rounded-[20px] w-[400px] relative px-8 py-6 h-[465px]"
+            class="shadow-serviceshadow2 rounded-[20px] min-w-fit 2xl:w-[400px] relative px-8 py-6 h-[465px]"
           >
             <div class="flex flex-col gap-4">
               <div class="flex flex-col gap-2">
